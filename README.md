@@ -14,7 +14,7 @@ A integração oferece suporte às seguintes operações:
   
 Foram escritos teste unitários para garantir o bom funcionamento de cada parte do código.
 
-As rotas foram criadas no arquivo `api.php` e são direcionadas para a controller `PaymentController`. Nela estão implementados os 4 métodos citados acima.
+As rotas foram criadas no arquivo `api.php` e são direcionadas para `PaymentController`. Nela estão implementados os 4 métodos citados acima.
 
 Todos os endpoints precisam receber o nome do Gateway que será utilizado, para a aplicação poder buscar a respectiva chave associada ao nome informado, podendo assim fazer a chamada.
 
@@ -24,11 +24,11 @@ No cancelamento, basta apenas informar o id da transação para efetivar o cance
 
 # Rodando a aplicação 🚀🔥
 
-1) Configurar o `.env` com a `api_key`.
-2) Rodar o comando `docker compose up api`.
-3) A aplicação está configurada para rodar na porta: 9000.
-4) Para testar a aplicação utilize cartões fake disponíveis na plataforma da Stripe próprios para simular cobranças.
-5) Para rodar os testes: `docker compose up test`.
+1) Configurar o `.env` com a `api_key`
+2) Rodar o comando `docker compose up api`
+3) A aplicação está configurada para rodar na porta: 9000
+4) Para testar a aplicação utilize cartões fake disponíveis na plataforma da Stripe próprios para simular cobranças
+5) Para rodar os testes: `docker compose up test`
 
 ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️
 
@@ -36,5 +36,5 @@ No cancelamento, basta apenas informar o id da transação para efetivar o cance
 
 Caso você esqueça de configurar o `.env` com a `api_key` e já tenha rodado o `docker compose up api`:
 1) Configurar o `.env` com a `api_key`
-2) `docker compose up test --build`.
+2) `docker compose up test --build`
 
