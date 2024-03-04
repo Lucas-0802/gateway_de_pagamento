@@ -4,10 +4,6 @@ services:
     build: .
     ports:
       - 9000:8080
-    volumes:
-      - ./.env:/app/.env
   test:
     build: .
     command: /app/vendor/bin/phpunit
-    volumes:
-      - ./.env:/app/.env
