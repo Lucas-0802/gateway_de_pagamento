@@ -7,10 +7,10 @@ Projeto de Teste contendo integração do Omnipay com Stripe.
 ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️ ℹ️
 
 A integração oferece suporte às seguintes operações: 
-  - Autorização,
-  - Captura,
-  - Estorno,
-  - Cancelamento.
+  - Autorização
+  - Captura
+  - Estorno
+  - Cancelamento
   
 Foram escritos teste unitários para garantir o bom funcionamento de cada parte do código.
 
