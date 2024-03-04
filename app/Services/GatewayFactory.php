@@ -18,7 +18,7 @@ class GatewayFactory
             throw new \InvalidArgumentException("Gateway '$gatewayName' não suportado.");
         }
 
-        if (!array_key_exists($gatewayName, $apiKeys)) {
+        if (empty($apiKeys[$gatewayName])) {
             throw new \InvalidArgumentException("Chave de API para o gateway '$gatewayName' não encontrada.");
         }
 
