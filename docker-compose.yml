@@ -9,3 +9,5 @@ services:
   test:
     build: .
     command: /app/vendor/bin/phpunit
+    volumes:
+      - ./.env:/app/.env
