@@ -38,3 +38,30 @@ Caso você esqueça de configurar o `.env` com a `api_key` e já tenha rodado o 
 1) Configurar o `.env` com a `api_key`
 2) `docker compose up test --build`
 
+   # Exemplos 📖
+
+   Url Base:
+
+![image](https://github.com/Lucas-0802/gateway_de_pagamento/assets/89819022/4be58d23-9780-4b4b-8fb0-1ace65e98cd8)
+
+Autorização:
+
+![image](https://github.com/Lucas-0802/gateway_de_pagamento/assets/89819022/75d1dad3-f89a-4fc6-874c-fbd9298c7585)
+
+Captura:
+
+![image](https://github.com/Lucas-0802/gateway_de_pagamento/assets/89819022/3da5e8d7-c0a8-4482-b637-cc41315de56d)
+
+
+Estorno:
+
+![image](https://github.com/Lucas-0802/gateway_de_pagamento/assets/89819022/bfe79252-0e96-4dc8-88e5-7df683f90470)
+
+Cancelamento:
+
+![image](https://github.com/Lucas-0802/gateway_de_pagamento/assets/89819022/65062845-5848-438f-84f8-98478f9f7cca)
+
+
+
+
+
