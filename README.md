@@ -18,7 +18,7 @@ As rotas foram criadas no arquivo `api.php` e são direcionadas para `PaymentCon
 
 Todos os endpoints precisam receber o nome do Gateway que será utilizado, para a aplicação poder buscar a respectiva chave associada ao nome informado, podendo assim fazer a chamada.
 
-O endpoint de autorização cria na API uma cobrança com o status "Não capturado" na API da Stripe. O endpoint de Captura necessita do id da transação de autorização para de fato efetivar a cobrança no cartão.
+O endpoint de autorização cria na API uma cobrança com o status "Não capturado". O endpoint de Captura necessita do id da transação de autorização para de fato efetivar a cobrança no cartão.
 Após capturado o valor, temos duas opções: Cancelamento e Estorno. No estorno, precisa ser informado o id da transação de captura e também o valor que deseja ser estornado. 
 No cancelamento, basta apenas informar o id da transação para efetivar o cancelamento.
 
