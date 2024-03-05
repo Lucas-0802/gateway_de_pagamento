@@ -12,7 +12,7 @@ A integração oferece suporte às seguintes operações:
   - Estorno
   - Cancelamento
   
-Foram escritos teste unitários para garantir o bom funcionamento de cada parte do código.
+Foram escritos teste unitários para garantir o bom funcionamento do código.
 
 As rotas foram criadas no arquivo `api.php` e são direcionadas para `PaymentController`. Nela estão implementados os 4 métodos citados acima.
 
