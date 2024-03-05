@@ -1,5 +1,5 @@
 {
-    "name": "laravel/laravel",
+    "name": "gateway_de_pagamento_omnipay_stripe",
     "type": "project",
     "description": "The Laravel Framework.",
     "keywords": [
