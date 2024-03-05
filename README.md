@@ -38,9 +38,9 @@ Caso você esqueça de configurar o `.env` com a `api_key` e já tenha rodado o 
 1) Configurar o `.env` com a `api_key`
 2) `docker compose up test --build`
 
-   # Exemplos 📖
+# Exemplos 📖
 
-   Url Base:
+Url Base:
 
 ![image](https://github.com/Lucas-0802/gateway_de_pagamento/assets/89819022/4be58d23-9780-4b4b-8fb0-1ace65e98cd8)
 
